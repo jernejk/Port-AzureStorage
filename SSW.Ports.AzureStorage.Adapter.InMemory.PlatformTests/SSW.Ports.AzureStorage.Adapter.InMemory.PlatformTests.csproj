@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\..\HW.KNOWnoise.Tests.Common.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSW.Ports.AzureStorage.Adapter.InMemory\SSW.Ports.AzureStorage.Adapter.InMemory.csproj" />
+    <ProjectReference Include="..\SSW.Ports.AzureStorage.Definition.Tests\SSW.Ports.AzureStorage.Definition.Tests.csproj" />
+  </ItemGroup>
+
+</Project>
