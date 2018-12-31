@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSW.Ports.AzureStorage.Adapter.Azure", "SSW.Ports.AzureStorage.Adapter.Azure\SSW.Ports.AzureStorage.Adapter.Azure.csproj", "{3FE0A4F3-C07E-4248-BA19-EFF0A3E2610B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSW.Ports.AzureStorage.Adapter.Azure.PlatformTests", "SSW.Ports.AzureStorage.Adapter.Azure.PlatformTests\SSW.Ports.AzureStorage.Adapter.Azure.PlatformTests.csproj", "{07338535-073C-4925-9124-7322A9F94CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSW.Ports.AzureStorage.Adapter.InMemory", "SSW.Ports.AzureStorage.Adapter.InMemory\SSW.Ports.AzureStorage.Adapter.InMemory.csproj", "{26981A44-76E2-4C8F-83D0-F58746612992}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSW.Ports.AzureStorage.Adapter.InMemory.PlatformTests", "SSW.Ports.AzureStorage.Adapter.InMemory.PlatformTests\SSW.Ports.AzureStorage.Adapter.InMemory.PlatformTests.csproj", "{B605A21E-563C-4BB2-84D8-9A5A16A0ABCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSW.Ports.AzureStorage.Definition", "SSW.Ports.AzureStorage.Definition\SSW.Ports.AzureStorage.Definition.csproj", "{577126C5-2FE4-4C3C-92E0-B09FC3D52292}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSW.Ports.AzureStorage.Definition.Tests", "SSW.Ports.AzureStorage.Definition.Tests\SSW.Ports.AzureStorage.Definition.Tests.csproj", "{01B5AFA9-8F83-4837-8FFA-08766D300B01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE0A4F3-C07E-4248-BA19-EFF0A3E2610B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE0A4F3-C07E-4248-BA19-EFF0A3E2610B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE0A4F3-C07E-4248-BA19-EFF0A3E2610B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE0A4F3-C07E-4248-BA19-EFF0A3E2610B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07338535-073C-4925-9124-7322A9F94CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07338535-073C-4925-9124-7322A9F94CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07338535-073C-4925-9124-7322A9F94CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07338535-073C-4925-9124-7322A9F94CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26981A44-76E2-4C8F-83D0-F58746612992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26981A44-76E2-4C8F-83D0-F58746612992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26981A44-76E2-4C8F-83D0-F58746612992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26981A44-76E2-4C8F-83D0-F58746612992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B605A21E-563C-4BB2-84D8-9A5A16A0ABCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B605A21E-563C-4BB2-84D8-9A5A16A0ABCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B605A21E-563C-4BB2-84D8-9A5A16A0ABCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B605A21E-563C-4BB2-84D8-9A5A16A0ABCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577126C5-2FE4-4C3C-92E0-B09FC3D52292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577126C5-2FE4-4C3C-92E0-B09FC3D52292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577126C5-2FE4-4C3C-92E0-B09FC3D52292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577126C5-2FE4-4C3C-92E0-B09FC3D52292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B5AFA9-8F83-4837-8FFA-08766D300B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B5AFA9-8F83-4837-8FFA-08766D300B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B5AFA9-8F83-4837-8FFA-08766D300B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B5AFA9-8F83-4837-8FFA-08766D300B01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6730749-6CF8-4586-AEBD-3B686F7B8320}
+	EndGlobalSection
+EndGlobal
