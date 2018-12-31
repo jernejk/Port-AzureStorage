@@ -12,6 +12,6 @@
     <ProjectReference Include="..\SSW.Ports.AzureStorage.Definition\SSW.Ports.AzureStorage.Definition.csproj" />
   </ItemGroup>
 
-  <Import Project="..\..\HW.KNOWnoise.Common.targets" />
+  <Import Project="..\SSW.Ports.Common.targets" />
 
 </Project>

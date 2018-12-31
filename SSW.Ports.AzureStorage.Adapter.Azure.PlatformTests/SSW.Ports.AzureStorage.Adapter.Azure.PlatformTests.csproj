@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <Import Project="..\..\HW.KNOWnoise.Tests.Common.targets" />
+  <Import Project="..\SSW.Ports.Tests.Common.targets" />
 
   <ItemGroup>
     <ProjectReference Include="..\SSW.Ports.AzureStorage.Adapter.Azure\SSW.Ports.AzureStorage.Adapter.Azure.csproj" />
